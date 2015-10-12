@@ -1,13 +1,5 @@
-# -*- mode: gitignore; -*-
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#**.swp
-pkg/
-test/
-_deploy/*
-Rakefile
+_site/
+_posts/
+.*.un~
+CNAME
+
