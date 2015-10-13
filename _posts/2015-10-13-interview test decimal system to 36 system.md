@@ -1,7 +1,7 @@
 ---
 date: 2015-10-12 16:58:39
 layout: post
-title: 十进制转化
+title: 十进制转36进制
 thread: 103
 categories: 算法
 tags: 进制转换
