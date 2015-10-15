@@ -11,4 +11,4 @@ github: 402332509
 pygments: true
 safe: true
 paginate: 20
-about: "这里是 刘敬华(Harry) 的个人博客，创建于 2015 年。用到了 Jekyll @ GitHub。<br /><br />这里包含了部分个人的“折腾”过程、结论和成果，切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……<p><img src="https://github.com/402332509/402332509.github.io/album/personal" /></p>"
+about: "这里是 刘敬华(Harry) 的个人博客，创建于 2015 年。用到了 Jekyll @ GitHub。<br /><br />这里包含了部分个人的“折腾”过程、结论和成果，切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……<p><img src="album/personal/Koala.jpg" /></p>"
