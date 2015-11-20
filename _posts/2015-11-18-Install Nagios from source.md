@@ -11,10 +11,10 @@ Nagios - 源码安装Nagios Core手册
 
 
 目的
-本文档详细介绍了如何从源码安装Nagios Core和Nagios Plugins到CentOS和Ubuntu服务器上。
+因yum安装无法获得4.x的版本。本文档详细介绍了如何从源码安装Nagios Core和Nagios Plugins到CentOS和Ubuntu服务器上。
 
 阅读对象
-本文档适用于任何想要从源码安装Nagios Core的用户
+本文档适用于任何想要从源码安装Nagios Core的用户。
 
 准备工作
 Ubuntu用户需要获取root权限，下面的命令可用来切换到root帐号
