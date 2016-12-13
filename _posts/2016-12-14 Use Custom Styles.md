@@ -1,3 +1,13 @@
+---
+date: 2016-12-14 00:22:05
+layout: post
+title: 使用自定义样式
+thread: 1001
+categories: 日志
+tags: Salesforce, Visualforce Pages
+---
+
+
 # 使用自定义样式
 使用 `<apex:stylesheet>` 标签或静态HTML来放置你自己的样式表或样式。
 HTML中，你可以定义内置CSS代码，就像普通的HTML页面那样。
