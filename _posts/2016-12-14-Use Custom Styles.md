@@ -23,7 +23,7 @@ HTML中，你可以定义内置CSS代码，就像普通的HTML页面那样。
 
 下面这个例子引用了一个在静态资源中定义了的样式表。首先，创建一个样式表并上传到静态资源中，取名为customCSS。
 
-```
+``` css
 h1 { color: #f00; }
 p { background-color: #eec; }
 newLink { color: #f60; font-weight: bold; }
