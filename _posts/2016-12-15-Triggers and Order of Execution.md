@@ -7,7 +7,7 @@ categories: 日志
 tags: Salesforce Apex
 ---
 
-# 触发器和执行顺序
+
 当你用insert,update或upset语句来保存一条记录时，Salesforce平台会按顺序执行下面的事件。
 
 ---
@@ -54,6 +54,6 @@ tags: Salesforce Apex
 
 ---
 
-# 额外考虑
+### 额外考虑
 请注意一下几点当你使用触发器时。
 当同一个对象有多个触发器
