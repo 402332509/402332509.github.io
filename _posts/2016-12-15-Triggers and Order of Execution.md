@@ -26,7 +26,7 @@ tags: Salesforce Apex
  - 字段的最大长度
  当请求发自其他来源时，比如Apex应用或SOAP API调用， Salesforce只会校验外键。在执行触发器之前，Salesforce会检查自定义外键是否指向非当前对象。
  当多行项目被创建时（比如报价行项目和业务机会航项目），Salesforce会运行用户定义的验证规则。
-3. 执行所有before触发器。
+3. 执行所有的before触发器。
 4. 再次执行大部分系统校验步骤，比如校验必填字段是否有空值，并运行所有的用户定义的验证规则。Salesforce唯一不运行二次的系统校验是布局指定的规则。（当请求来自标准编辑页面时）
 5. 执行重复检查。如果检查将记录识别为重复那么将会阻塞改动作，这条记录不会被保存也不会执行接下来的步骤，比如after触发器和工作流。
 6. 保存记录到数据库，但暂时不会提交。
@@ -57,3 +57,8 @@ tags: Salesforce Apex
 ### 额外考虑
 请注意一下几点当你使用触发器时。
 当同一个对象有多个触发器
+
+
+---
+
+ [原文链接](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_order_of_execution.htm)
