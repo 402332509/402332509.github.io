@@ -2,7 +2,7 @@
 date: 2016-12-21 10:30:39
 layout: post
 title: System.SObjectException: DML statement cannot operate on trigger.new or trigger.old
-thread: 1003
+thread: 1004
 categories: 日志
 tags: Salesforce Exception
 ---
