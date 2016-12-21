@@ -4,7 +4,7 @@ layout: post
 title: 使用自定义样式
 thread: 1001
 categories: 日志
-tags: Salesforce, Visualforce Pages
+tags: Salesforce VisualforcePages
 ---
 
 # 使用自定义样式
