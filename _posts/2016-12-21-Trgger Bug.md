@@ -4,7 +4,7 @@ layout: post
 title: System.SObjectException: DML statement cannot operate on trigger.new or trigger.old
 thread: 1003
 categories: 日志
-tags: Salesforce, Exception
+tags: Salesforce Exception
 ---
 
 在trigger的before时，不需要也不能对当前对象进行update, insert或delete操作！
