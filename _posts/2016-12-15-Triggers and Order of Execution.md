@@ -8,7 +8,7 @@ tags: Salesforce Apex
 ---
 
 
-当你用insert,update或upset语句来保存一条记录时，Salesforce平台会按顺序执行下面的事件。
+当你用insert,update或upsert语句来保存一条记录时，Salesforce平台会按顺序执行下面的事件。
 
 ---
 
