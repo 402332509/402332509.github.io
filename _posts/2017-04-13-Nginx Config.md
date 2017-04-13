@@ -1,7 +1,7 @@
 ---
 date: 2017-04-13 13:48:03
 layout: post
-title: Nginx服务器配置跨域请求
+title: Nginx服务器配置跨域访问 CORS
 thread: 1092
 categories: Nginx
 tags: Nginx
