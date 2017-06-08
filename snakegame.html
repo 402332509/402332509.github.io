@@ -1,11 +1,19 @@
 <html>
 <head>
 <!-- <link href="assets/icons/salesforce-lightning-design-system-vf.min.css"> -->
-
+<style>
+.slds-button{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    margin:10px;
+}
+</style>
 </head>
 
 <canvas width="800" height="800" id="canv"></canvas>
-<div width ="800">
 <table>
 <tr>
     <td></td>
@@ -14,7 +22,7 @@
             <!-- <svg class="slds-icon slds-icon-text-default" aria-hidden="true" data-reactid="2550">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/icons/utility-sprite/svg/symbols.svg#chevrondown" data-reactid="2551"></use>
             </svg> -->
-            上
+            <h1>^</h1>
         </button>
 
     </td>
@@ -22,11 +30,11 @@
 </tr>
 <tr>
     <td>
-        <button onclick="left()" class="slds-button slds-button_icon">
+        <button onclick="left()" class="slds-button slds-button_icon" >
             <!-- <svg class="slds-icon slds-icon-text-default" aria-hidden="true" data-reactid="2550" >
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/icons/utility-sprite/svg/symbols.svg#chevronleft" data-reactid="2551"></use>
             </svg> -->
-            左
+            <h1><</h1>
         </button>
     </td>
     <td>
@@ -35,7 +43,7 @@
             <!-- <svg class="slds-icon slds-icon-text-default" aria-hidden="true" data-reactid="2550">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/icons/utility-sprite/svg/symbols.svg#chevronup" data-reactid="2551"></use>
             </svg> -->
-            下
+            <h1>V</h1>
         </button>
     </td>
     <td>
@@ -43,7 +51,7 @@
             <!-- <svg class="slds-icon slds-icon-text-default" aria-hidden="true" data-reactid="2550">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="assets/icons/utility-sprite/svg/symbols.svg#chevronright" data-reactid="2551"></use>
             </svg> -->
-            右
+            <h1>></h1>
         </button>
     </td>
 </tr>
@@ -51,7 +59,6 @@
 
 
 
-</div>
 <script>
 window.onload = function(){
     canv = document.getElementById('canv');
