@@ -16,7 +16,7 @@ iOS 用户: install from App Store: Shadowsocks-iOS [Help: Link]
 
 Windows 7 用户, 下载 [shadowsocks-win-2.3.zip]({{ site.url }}/assets/shadowsocks-win-2.3.zip)
 
-Windows 8、10 用户, 下载 [Shadowsocks-4.0.4.zip]({{ site.url }}/assets/Shadowsocks-4.0.4.zip)
+Windows 8、10 用户, 下载 [Shadowsocks-4.0.5.zip]({{ site.url }}/assets/Shadowsocks-4.0.5.zip)
 
 OSX 用户, 下载 [ShadowsocksX-2.6.3.dmg]({{ site.url }}/assets/ShadowsocksX-2.6.3.dmg)
 
