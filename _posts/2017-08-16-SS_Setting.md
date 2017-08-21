@@ -10,7 +10,7 @@ tags: 博客
 
 步骤 1. 安装 Shadowsocks 应用
 
-Android 用户:  [Shadowsocks-Android]({{ site.url }}/assets/)
+Android 用户:  [shadowsocks-nightly-4.1.8.apk]({{ site.url }}/assets/shadowsocks-nightly-4.1.8.apk)
 
 iOS 用户: install from App Store: Shadowsocks-iOS [Help: Link]
 
