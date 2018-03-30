@@ -19,4 +19,6 @@ comments: no
 
 GitHub : [http://github.com/{{ site.github }}](http://github.com/{{ site.github }})
 
+豆瓣: [Mr. Six]({{site.douban}})
+
 ----
