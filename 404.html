@@ -1,26 +1,32 @@
 ---
-title: '404 培鸡诺特方的'
-layout: page
+layout: null
+title: 404
+permalink: /404.html
 ---
-
-<script>
-var posts =
-{
-{% for post in site.posts %} {% if post.thread %}
-"{{ post.thread }}" : "{{ post.url }}",{% endif %}{% endfor %}
-};
-
-var path = location.pathname;
-if(path.charAt(path.length - 1) == '/') path = path.substring(0, path.length - 1);
-var name = path.substring(path.lastIndexOf('/') + 1);
-var url = posts[name];
-if (url)
-{
-	document.write("您访问的文章已经转移到新网址，正在为您转跳到 <a href=" + url + ">" + url + "</a>");
-	location.href = url;
-}
-else
-{
-	document.write("文章或附件未找到，请转到 <a href='/categories'>分类</a> 或返回 <a href='/'>首页</a>。如有问题请联系 <a href='mailto:{{ site.email }}'>{{ site.email }}</a><iframe scrolling='no' frameborder='0' src='http://yibo.iyiyun.com/js/yibo404/key/7349' width='640' height='462' style='display:block;'></iframe>");
-}
-</script>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error</title>
+    <!-- Mainly CSS -->
+    <link href="{{ "/static/assets/app-20180125.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/static/css/custom.css" | prepend: site.baseurl }}" rel="stylesheet">
+</head>
+<body class="gray-bg">
+    <div class="middle-box text-center animated fadeInDown">
+        <h1>404</h1>
+        <h3 class="font-bold">Page Not Found</h3>
+        <div class="error-desc">
+            <p>
+            Sorry, but the page you are looking for has not been found. Try checking the URL for error, then hit the refresh button on your browser or try found something else in my website.
+            </p>
+            <div>
+                <a class="btn btn-primary" href="{{ "/" | prepend: site.baseurl }}">Home</a>
+            </div>
+        </div>
+    </div>
+    <!-- Mainly scripts -->
+    <script src="{{"/static/assets/app-20180125.min.js"| prepend: site.baseurl }}"></script>
+</body>
+</html>
